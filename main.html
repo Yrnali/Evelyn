@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Эвелин</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="loader">
+            <div class="wind"></div>
+            <p class="loader-text">Evelyn</p>
+        </div>
+    </div>
+
+    <header>
+        <video class="header-video" autoplay muted loop>
+            <source src="videos/cloudsHeader.mp4" type="video/mp4">
+        </video>
+
+        <nav class="header-nav">
+            <div class="nav-logo">
+                <img src="images/EVALOGO.png" alt="Логотип">
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#timeline">хронология</a></li>
+                <li><a href="#films">фильмы</a></li>
+                <li><a href="#merch">мерч</a></li>
+                <li><a href="#powers">способности</a></li>
+                <li><a href="#contact">связь</a></li>
+            </ul>
+
+            <button class="lang-btn" id="themeToggle">🌙</button>
+        </nav>
+
+        <div class="header-content">
+            <h1 class="mainH">ЭВЕЛИН - Богиня воздуха</h1>
+            <p class="mainP">Marvel Cinematic Universe</p>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ПЕРВАЯ ХРОНОЛОГИЯ -->
+        <section class="timeline" id="timeline">
+            <h1 class="timeline-title">Хронология</h1>
+
+            <div class="timeline-cards">
+                <div class="card">
+                    <img src="images/EvaChild.png" alt="рождение" class="card-image">
+                    <h2 class="card-title">Рождение богини</h2>
+                    <p class="card-date">01.05.1017</p>
+                    <p class="card-text">
+                        родилась Эвелин у пары, которую преследовали, и...
+                    </p>
+                    <a href="birth.html" class="card-btn">Дальше</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/evaTrain.png" alt="становление" class="card-image">
+                    <h2 class="card-title">Становление богиней</h2>
+                    <p class="card-date">01.05.1100</p>
+                    <p class="card-text">
+                        тренировки у Люциана, его запреты, наказания...
+                    </p>
+                    <a href="train.html" class="card-btn">Дальше</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/evaEscape.png" alt="слава" class="card-image">
+                    <h2 class="card-title">Побег и первая слава</h2>
+                    <p class="card-date">11.07.2010</p>
+                    <p class="card-text">
+                        Побег, свобода и новый контроль...
+                    </p>
+                    <a href="escape.html" class="card-btn">Дальше</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/evaWIN.png" alt="легенда" class="card-image">
+                    <h2 class="card-title">Победы и Поражения</h2>
+                    <p class="card-date">2012-2022</p>
+                    <p class="card-text">
+                        Культовые сражения, знакомство со Стрэнджем...
+                    </p>
+                    <a href="legend.html" class="card-btn">Дальше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ВТОРАЯ ХРОНОЛОГИЯ -->
+        <section class="films-timeline-section" id="films">
+            <h2 class="films-timeline-title">Хронология фильмов</h2>
+
+            <div class="films-timeline">
+
+                <div class="film-item left hidden">
+                    <div class="film-card">
+                        <img src="images/EvaAirborn.png" alt="Ева: Рождение ветра">
+                        <div class="film-text">
+                            <h3>Ева: Рождение ветра</h3>
+                            <span class="film-year">2010</span>
+                            <p>Первый фильм Евы, её происхождение</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item right hidden">
+                    <div class="film-card">
+                        <img src="images/avengers2012.jpg" alt="Мстители">
+                        <div class="film-text">
+                            <h3>Мстители</h3>
+                            <span class="film-year">2012</span>
+                            <p>Ева появляется среди героев и помогает в битве.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item left hidden">
+                    <div class="film-card">
+                        <img src="images/eva2film.png" alt="Ева: Буря небес">
+                        <div class="film-text">
+                            <h3>Ева: Буря небес</h3>
+                            <span class="film-year">2015</span>
+                            <p>4 элемента Земли, горькая правда.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item right hidden">
+                    <div class="film-card">
+                        <img src="images/civilWARR.jpg" alt="Противостояние">
+                        <div class="film-text">
+                            <h3>Мстители: Противостояние</h3>
+                            <span class="film-year">2016</span>
+                            <p>Раскол между героями, Ева на стороне Старка.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item left hidden">
+                    <div class="film-card">
+                        <img src="images/doctorstrange1.jpg" alt="Ева 3">
+                        <div class="film-text">
+                            <h3>Доктор Стрэндж</h3>
+                            <span class="film-year">2016</span>
+                            <p>Знакомство со Стивеном на Эвересте, а в конце поцелуй.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item right hidden">
+                    <div class="film-card">
+                        <img src="images/endgame.jpg" alt="Финал">
+                        <div class="film-text">
+                            <h3>Мстители: Война бесконечности</h3>
+                            <span class="film-year">2018</span>
+                            <p>Щелчок, где исчез Стивен. Ева разбита.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item left hidden">
+                    <div class="film-card">
+                        <img src="images/eva33.png" alt="Ева 3">
+                        <div class="film-text">
+                            <h3>Ева 3</h3>
+                            <span class="film-year">2018</span>
+                            <p>Помощь городу и самой себе после щелчка. Победа над Люцианом.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item right hidden">
+                    <div class="film-card">
+                        <img src="images/final.jpg" alt="Финал">
+                        <div class="film-text">
+                            <h3>Мстители: Финал</h3>
+                            <span class="film-year">2019</span>
+                            <p>победа над Таносом. Воссоединение со Стивеном.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item left hidden">
+                    <div class="film-card">
+                        <img src="images/ds2.jpg" alt="Ева 3">
+                        <div class="film-text">
+                            <h3>Доктор Стрэндж 2</h3>
+                            <span class="film-year">2022</span>
+                            <p>Ева помогает победить Ванду. В конце свадьба.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Эта часть ниже сделана с подсказками ИИ -->
+        <section class="info-section">
+            <div class="info-wrapper">
+
+                <div class="info-left">
+                    <h2 class="info-title">Богиня<br>Ветра</h2>
+                    <p class="info-subtitle">Эвелин: Воздушная Богиня Марвел</p>
+                    <p class="info-text">
+                        Встречайте Эвелин, новую богиню воздуха в кинематографической
+                        вселенной Марвел. Её сила подобна буре, а её присутствие
+                        ощущается как лёгкий бриз или яростный ураган. Белый цвет —
+                        её символ, олицетворяющий чистоту и безграничную мощь стихии.
+                    </p>
+                    <a href="quiz.html" class="info-btn">Узнать больше</a>
+                </div>
+
+                <div class="info-right">
+                    <div class="info-item">
+                        <div class="info-logo">
+                            <img src="images/EvaMARVEL.png" alt="Marvel Studios">
+                        </div>
+                    <div class="info-content">
+                        <h3>Marvel Studios</h3>
+                        <p>Создатели эпических историй и незабываемых героев, расширяющие границы возможного.</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-logo">
+                        <img src="images/COMIXON.png" alt="ComiXology">
+                    </div>
+                    <div class="info-content">
+                        <h3>ComiXology</h3>
+                        <p>Цифровая библиотека комиксов, где каждая страница — новое приключение.</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-logo">
+                        <img src="images/EvelynPop.png" alt="Funko">
+                    </div>
+                    <div class="info-content">
+                        <h3>Funko</h3>
+                        <p>Создавая культовые фигурки, которые приносят радость фанатам по всему миру.</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-logo">
+                        <img src="images/EvelynHT.jpg" alt="Hot Toys">
+                    </div>
+                    <div class="info-content">
+                        <h3>Hot Toys</h3>
+                        <p>Производство высокодетализированных коллекционных фигурок для истинных ценителей.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- до сюда-->
+
+        <section class="ideas-section">
+            <h2 class="ideas-title">ПЕРВЫЕ НАРАБОТКИ</h2>
+            <div class="ideas-buttons">
+                <button class="idea-btn" data-target="name-box">имя</button>
+                <button class="idea-btn" data-target="clothes-box">одежда</button>
+                <button class="idea-btn" data-target="story-box">история</button>
+            </div>
+
+            <div class="ideas-content">
+                <div class="idea-box" id="name-box">
+                    <p>
+                        изначально имя было Эйра(air - воздух на  англ.), т.к. она богиня воздуха. После решила заменить на Эвелин(Ева).
+                    </p>
+                </div>
+
+                <div class="idea-box" id="clothes-box">
+                    <p>
+                        Раньше в её образе были очки, которые сдерживали её силу, однако решила убрать, т.к.
+                        подумала, что это сильный дисбаланс против других супергероев. 
+                    </p>
+                </div>
+
+                <div class="idea-box" id="story-box">
+                    <p>
+                        Ранее также умела ходить по воздуху и прослушивать людей через огромные расстояния. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="merch-section" id="merch">
+            <h2 class="merch-title">МЕРЧ ЭВЕЛИН</h2>
+
+            <div class="merch-grid">
+                <div class="merch-card">
+                    <img src="images/evaPerfume.png" alt="Парфюм" class="merch-image">
+                    <h3>Шёпот ветра</h3>
+                    <p class="merch-price">20</p>
+                    <p class="merch-text">аромат свежести</p>
+                    <ul>
+                        <li>нотки жасмина</li>
+                        <li>чистый аромат</li>
+                        <li>сладкий</li>
+                        <li>стойкий</li>
+                    </ul>
+                    <button class="merch-btn">купить</button>
+                </div>
+                <div class="merch-card">
+                    <img src="images/evaKatana.png" alt="Катана" class="merch-image">
+                    <h3>Клинок бури</h3>
+                    <p class="merch-price">90</p>
+                    <p class="merch-text">Оружие ветра</p>
+                    <ul>
+                        <li>катана</li>
+                        <li>декор</li>
+                        <li>сталь</li>
+                        <li>коллекция</li>
+                    </ul>
+                    <button class="merch-btn">купить</button>
+                </div>
+                <div class="merch-card">
+                    <img src="images/evaAmulet.png" alt="Амулет" class="merch-image">
+                    <h3>Амулет небес</h3>
+                    <p class="merch-price">40</p>
+                    <p class="merch-text">символ защиты</p>
+                    <ul>
+                        <li>амулет</li>
+                        <li>серебристый</li>
+                        <li>на цепочке</li>
+                        <li>стильный</li>
+                    </ul>
+                    <button class="merch-btn">купить</button>
+                </div>
+                <div class="merch-card">
+                    <img src="images/evaCrystall.png" alt="кристалл" class="merch-image">
+                    <h3>Кристалл воздуха</h3>
+                    <p class="merch-price">60</p>
+                    <p class="merch-text">артефакт</p>
+                    <ul>
+                        <li>кристалл</li>
+                        <li>прозрачный</li>
+                        <li>светящийся</li>
+                        <li>коллекционный</li>
+                    </ul>
+                    <button class="merch-btn">купить</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="powers-section" id="powers">
+            <h2 class="powers-title">
+                СИЛЫ И СПОСОБНОСТИ ЭВЕЛИН
+            </h2>
+
+            <div class="powers-wrapper">
+                <div class="powers-left">
+                    <img src="images/CURSOREVA.png" alt="Eva" class="eva-img">
+                </div>
+                <div class="powers-right">
+                    <div class="power-item hidden-power">
+                        <h3>воздух</h3>
+                        <div class="cloud sound-cloud" data-sound="wind">
+                            Управление потоками воздуха, создание торнадо, щитов.
+                        </div>
+                    </div>
+                    <div class="power-item hidden-power">
+                        <h3>Катана</h3>
+                        <div class="cloud sound-cloud" data-sound="katana">
+                            Владение божественным клинком.
+                        </div>
+                    </div>
+                    <div class="power-item hidden-power">
+                        <h3>Температура</h3>
+                        <div class="cloud sound-cloud" data-sound="campfire">
+                            Изменение температуры своего тела.
+                        </div>
+                    </div>
+                    <div class="power-item hidden-power">
+                        <h3>Боевые искусства</h3>
+                        <div class="cloud sound-cloud" data-sound="fight">
+                            Высокая скорость, ловкость, выносливость, мастерство в бою.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <audio id="windSound" src="sounds/wind.mp3" preload="auto"></audio>
+            <audio id="katanaSound" src="sounds/katana.mp3" preload="auto"></audio>
+            <audio id="campfireSound" src="sounds/campfire.mp3" preload="auto"></audio>
+            <audio id="fightSound" src="sounds/fight.mp3" preload="auto"></audio>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2 class="contact-title">
+                Поговорить с богиней?<br>
+                Оставьте своё послание, если осмелитесь.<br>
+                Возможно, она услышит.
+            </h2>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Имя</label>
+                    <input type="text" placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label>Почта</label>
+                    <input type="email" placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label>Телефон</label>
+                    <input type="tel" placeholder="+7 777 777 77 77">
+                </div>
+                <div class="form-group">
+                    <label>Сообщение</label>
+                    <textarea placeholder="Ваши слова богине..."></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Отправить</button>
+            </form>
+        </section>
+
+        <section class="map-section">
+            <h2 class="map-title">Где появлялась Ева</h2>
+
+            <div class="map-wrapper">
+                <img src="images/map.png" alt="Карта мира" class="world-map">
+                <button class="map-point europe" data-place="europe">Европа</button>
+                <button class="map-point NY" data-place="NY">Нью-Йорк</button>
+                <button class="map-point asgard" data-place="asgard">Асгард</button>
+
+                <div class="map-info" id="mapInfo">
+                    <h3 id="mapInfoTitle">Выбери точку</h3>
+                    <p id="mapInfoText">Нажми на одну из точек на карте, чтобы увидеть, где появлялась Ева</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3 class="footer-title">
+            Первое появление Евы в составе Мстителей
+        </h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/eOrNdBpGMv8" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p class="footer-rights">© 2026 Все права защищены Marvel Studios</p>
+    </footer>
+</body>
+</html>

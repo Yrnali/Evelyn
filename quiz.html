@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Какой ты элемент воздуха?</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+
+    <section class="quiz-section">
+        <h1 class="quiz-title">КАКОЙ ТЫ ЭЛЕМЕНТ ВОЗДУХА?</h1>
+        <p class="quiz-subtitle">
+            Ответь на 10 вопросов и узнай, кто ты: бриз, шторм, туман или ураган.
+        </p>
+
+        <form id="quizForm" class="quiz-form">
+
+            <div class="question-block">
+                <h2>1. Как ты реагируешь на стресс?</h2>
+                <label><input type="radio" name="q1" value="A"> Спокойно, стараюсь не паниковать</label>
+                <label><input type="radio" name="q1" value="B"> Взрываюсь и действую</label>
+                <label><input type="radio" name="q1" value="C"> Закрываюсь в себе</label>
+                <label><input type="radio" name="q1" value="D"> Беру всё под контроль</label>
+            </div>
+
+            <div class="question-block">
+                <h2>2. Твоя энергия больше:</h2>
+                <label><input type="radio" name="q2" value="A"> Мягкая</label>
+                <label><input type="radio" name="q2" value="B"> Резкая</label>
+                <label><input type="radio" name="q2" value="C"> Тихая</label>
+                <label><input type="radio" name="q2" value="D"> Сильная</label>
+            </div>
+
+            <div class="question-block">
+                <h2>3. Что тебе ближе?</h2>
+                <label><input type="radio" name="q3" value="A"> Свобода</label>
+                <label><input type="radio" name="q3" value="B"> Сила</label>
+                <label><input type="radio" name="q3" value="C"> Тайна</label>
+                <label><input type="radio" name="q3" value="D"> Власть</label>
+            </div>
+
+            <div class="question-block">
+                <h2>4. Как ты принимаешь решения?</h2>
+                <label><input type="radio" name="q4" value="A"> Интуитивно</label>
+                <label><input type="radio" name="q4" value="B"> Быстро</label>
+                <label><input type="radio" name="q4" value="C"> Осторожно</label>
+                <label><input type="radio" name="q4" value="D"> Продуманно</label>
+            </div>
+
+            <div class="question-block">
+                <h2>5. Ты в компании:</h2>
+                <label><input type="radio" name="q5" value="A"> Лёгкий и дружелюбный</label>
+                <label><input type="radio" name="q5" value="B"> Центр движухи</label>
+                <label><input type="radio" name="q5" value="C"> Наблюдаешь</label>
+                <label><input type="radio" name="q5" value="D"> Лидер</label>
+            </div>
+
+            <div class="question-block">
+                <h2>6. Что тебя злит больше всего?</h2>
+                <label><input type="radio" name="q6" value="A"> Ограничения</label>
+                <label><input type="radio" name="q6" value="B"> Слабость</label>
+                <label><input type="radio" name="q6" value="C"> Давление</label>
+                <label><input type="radio" name="q6" value="D"> Потеря контроля</label>
+            </div>
+
+            <div class="question-block">
+                <h2>7. Как ты двигаешься по жизни?</h2>
+                <label><input type="radio" name="q7" value="A"> Плыву по течению</label>
+                <label><input type="radio" name="q7" value="B"> Пробиваю путь</label>
+                <label><input type="radio" name="q7" value="C"> Обхожу всё стороной</label>
+                <label><input type="radio" name="q7" value="D"> Контролирую всё</label>
+            </div>
+
+            <div class="question-block">
+                <h2>8. Твоя сильная сторона:</h2>
+                <label><input type="radio" name="q8" value="A"> Спокойствие</label>
+                <label><input type="radio" name="q8" value="B"> Сила</label>
+                <label><input type="radio" name="q8" value="C"> Интуиция</label>
+                <label><input type="radio" name="q8" value="D"> Уверенность</label>
+            </div>
+
+            <div class="question-block">
+                <h2>9. Как ты относишься к риску?</h2>
+                <label><input type="radio" name="q9" value="A"> Избегаю</label>
+                <label><input type="radio" name="q9" value="B"> Люблю</label>
+                <label><input type="radio" name="q9" value="C"> Иногда</label>
+                <label><input type="radio" name="q9" value="D"> Контролирую</label>
+            </div>
+
+            <div class="question-block">
+                <h2>10. Твоя атмосфера:</h2>
+                <label><input type="radio" name="q10" value="A"> Лёгкий ветер</label>
+                <label><input type="radio" name="q10" value="B"> Буря</label>
+                <label><input type="radio" name="q10" value="C"> Туман</label>
+                <label><input type="radio" name="q10" value="D"> Ураган</label>
+            </div>
+
+            <button type="submit" class="quiz-btn">Узнать результат</button>
+        </form>
+
+        <div id="quizResult" class="quiz-result hidden-result">
+            <h2 id="resultTitle"></h2>
+            <p id="resultText"></p>
+            <button id="restartBtn" class="quiz-btn restart-btn">Пройти ещё раз</button>
+        </div>
+
+        <div class="back-link-wrap">
+            <a href="main.html" class="back-link">← Вернуться на главную</a>
+        </div>
+    </section>
+
+</body>
+</html>
